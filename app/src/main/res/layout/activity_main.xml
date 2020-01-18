@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="@android:color/white"
             android:orientation="vertical"
             android:padding="20dp"
@@ -29,7 +29,8 @@
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/logo" />
+                app:srcCompat="@drawable/logo"
+                android:contentDescription="@string/logoText"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,7 +49,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Time Limit (seconds):"
+                        android:text="@string/timeLimitText"
                         android:textColor="@android:color/black"
                         android:textSize="30sp"
                         android:textStyle="bold" />
@@ -64,7 +65,7 @@
                             android:id="@+id/radioButton6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="30"
+                            android:text="@string/thirty"
                             android:textColor="@android:color/black"
                             android:textSize="18sp" />
 
@@ -72,7 +73,7 @@
                             android:id="@+id/radioButton4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="60"
+                            android:text="@string/sixty"
                             android:textColor="@android:color/black"
                             android:textSize="18sp" />
                     </RadioGroup>
@@ -82,7 +83,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Number of cards:"
+                        android:text="@string/NumberOfCardsText"
                         android:textColor="@android:color/black"
                         android:textSize="30sp"
                         android:textStyle="bold" />
@@ -98,45 +99,45 @@
                             android:id="@+id/size8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="8"
+                            android:text="@string/eight"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="12"
+                            android:text="@string/twelve"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="16"
+                            android:text="@string/sixteen"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="20"
+                            android:text="@string/twenty"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size24"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="24"
+                            android:text="@string/twentyFour"
                             android:textSize="18sp" />
 
                     </RadioGroup>
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="pairs or quadruples?"
+                        android:text="@string/pairsText"
                         android:textColor="@android:color/black"
                         android:textSize="30sp"
                         android:textStyle="bold" />
@@ -152,13 +153,13 @@
                             android:id="@+id/pair"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="pair" />
+                            android:text="@string/pair" />
 
                         <RadioButton
                             android:id="@+id/quad"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="quad" />
+                            android:text="@string/quad" />
                     </RadioGroup>
 
                 </LinearLayout>
@@ -176,7 +177,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Disclaimer" />
+                    android:text="@string/DisclaimerLabelText" />
 
                 <TextView
                     android:id="@+id/disclaimerTv"

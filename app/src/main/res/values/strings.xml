@@ -3,9 +3,26 @@
     <string name="playText">Let\'s Play!</string>
     <string name="scoreText">Score:</string>
     <string name="timeText">Time Left:</string>
+    <string name="DisclaimerLabelText">Disclaimer</string>
     <string name="tryAgainText">Try Again!</string>
     <string name="lossText">You know what they say, failure is the best teacher. So try again now!</string>
     <string name="winText">So much greatness, I want to see it again!</string>
     <string name="mainMenuText">Go back to menu!</string>
+    <string name="winningImage">This is an image to celebrate your victory</string>
+    <string name="backgroundImage">cute background Image</string>
+    <string name="logoText">Logo of MatchIt!</string>
+    <string name="timeLimitText">Time Limit (seconds):</string>
+    <string name="thirty">30</string>
+    <string name="sixty">60</string>
+    <string name="NumberOfCardsText">Number of cards:</string>
+    <string name="eight">8</string>
+    <string name="twelve">12</string>
+    <string name="sixteen">16</string>
+    <string name="twenty">20</string>
+    <string name="twentyFour">24</string>
+    <string name="pairsText">pairs or quadruples?</string>
+    <string name="pair">pair</string>
+    <string name="quad">quad</string>
+
     <string name="disclaimerTxt">This is a mobile game created to showcase my mobile development skills for Shopify internship opportunity for summer 2020. The images that are shown do not belong to me but where simply found on Google as the JSON provided had links that gave me a 404 error :). Enjoy the game!</string>
 </resources>
