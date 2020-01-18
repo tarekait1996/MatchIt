@@ -15,13 +15,14 @@
     <string name="thirty">30</string>
     <string name="sixty">60</string>
     <string name="NumberOfCardsText">Number of cards:</string>
-    <string name="eight">8</string>
-    <string name="twelve">12</string>
-    <string name="sixteen">16</string>
     <string name="twenty">20</string>
-    <string name="twentyFour">24</string>
+    <string name="twentyEight">28</string>
+    <string name="thirtySix">36</string>
+    <string name="fourtyFour">44</string>
+    <string name="FiftyTwo">52</string>
     <string name="pairsText">pairs or quadruples?</string>
     <string name="pair">pair</string>
+    <string name="triple">triple</string>
     <string name="quad">quad</string>
 
     <string name="disclaimerTxt">This is a mobile game created to showcase my mobile development skills for Shopify internship opportunity for summer 2020. The images that are shown do not belong to me but where simply found on Google as the JSON provided had links that gave me a 404 error :). Enjoy the game!</string>

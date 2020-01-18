@@ -99,37 +99,36 @@
                             android:id="@+id/size8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/eight"
+                            android:text="@string/twenty"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/twelve"
+                            android:text="@string/twentyEight"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/sixteen"
+                            android:text="@string/thirtySix"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/twenty"
+                            android:text="@string/fourtyFour"
                             android:textSize="18sp" />
 
                         <RadioButton
                             android:id="@+id/size24"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/twentyFour"
+                            android:text="@string/FiftyTwo"
                             android:textSize="18sp" />
-
                     </RadioGroup>
 
                     <TextView
@@ -156,9 +155,16 @@
                             android:text="@string/pair" />
 
                         <RadioButton
+                            android:id="@+id/triple"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/triple" />
+
+                        <RadioButton
                             android:id="@+id/quad"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1"
                             android:text="@string/quad" />
                     </RadioGroup>
 

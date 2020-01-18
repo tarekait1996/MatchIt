@@ -95,9 +95,10 @@ public class MainActivity extends AppCompatActivity {
         int time = Integer.parseInt((String)timeLimitRb.getText());
         String pair = (String)pairRb.getText();
 
+
         intent.putExtra("SIZE", size);
         intent.putExtra("TIME", time);
-        intent.putExtra("PAIR", pair.equals("pair") ? 2 : 4);
+        intent.putExtra("PAIR", pair.equals("pair") ? 2 : pair.equals("triple")? 3 : 4);
     }
 
     private boolean radioBtnNotFilled() {

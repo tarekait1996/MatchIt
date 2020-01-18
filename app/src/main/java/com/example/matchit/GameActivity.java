@@ -80,7 +80,10 @@ public class GameActivity extends AppCompatActivity {
         drawableImages = new int[]{R.drawable.pikachu, R.drawable.venusaur, R.drawable.charizard,
                 R.drawable.blastoise,R.drawable.chimchar, R.drawable.piplup, R.drawable.turtwig,
                 R.drawable.gengar, R.drawable.luxray, R.drawable.garbodor, R.drawable.misdreavus,
-                R.drawable.froakie};
+                R.drawable.froakie, R.drawable.chikorita, R.drawable.cyndaquil,R.drawable.totodile,
+                R.drawable.lurantis, R.drawable.eevee, R.drawable.mew, R.drawable.mewtwo,
+                R.drawable.moltres, R.drawable.zaptos, R.drawable.aticuno, R.drawable.snorlax,
+                R.drawable.jolteon, R.drawable.umbreon, R.drawable.flareon };
 
         MAX_SCORE = difficulty_pairs*difficulty_selectedNumb;
 
@@ -222,7 +225,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     private void determineAction(int position, View view) {
-        if(cards.get(position).equals(cards.get(clickedStack.peek().position))){
+        if(!clickedStack.isEmpty() && cards.get(position).equals(cards.get(clickedStack.peek().position))){
 
             clickedStack.push(new Card((ImageView)view, position));
 
