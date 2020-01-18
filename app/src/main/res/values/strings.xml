@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MatchIt!</string>
+    <string name="playText">Let\'s Play!</string>
+    <string name="scoreText">Score:</string>
+    <string name="timeText">Time Left:</string>
+    <string name="tryAgainText">Try Again!</string>
+    <string name="lossText">You know what they say, failure is the best teacher. So try again now!</string>
+    <string name="winText">So much greatness, I want to see it again!</string>
+    <string name="mainMenuText">Go back to menu!</string>
+    <string name="disclaimerTxt">This is a mobile game created to showcase my mobile development skills for Shopify internship opportunity for summer 2020. The images that are shown do not belong to me but where simply found on Google as the JSON provided had links that gave me a 404 error :). Enjoy the game!</string>
+</resources>
